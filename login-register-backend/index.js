@@ -30,6 +30,8 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model("User", userSchema); 
 
+
+//login
 app.post("/login", (req, res)=> {
   const { email, password} = req.body
   User.findOne({ email: email}, (err, user) => {
