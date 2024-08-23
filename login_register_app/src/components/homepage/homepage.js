@@ -1,26 +1,3 @@
-// import React from "react"
-// import "./homepage.css"
-
-// const Homepage =()=>{
-//     return (
-//         <div className="homepage">
-//             <div className="button">Logout</div>
-//         </div>
-//     )
-// }
-// export default Homepage
-
-
-
-
-
-
-
-
-
-
-
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./homepage.css";

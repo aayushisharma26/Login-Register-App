@@ -68,7 +68,7 @@ const Login = () => {
   };
 
   const login = () => {
-    axios.post("http://localhost:9003/login", user)
+    axios.post("https://login-register-app-1.onrender.com/login", user)
       .then(res => {
         alert(res.data.message);
         if (res.data.message === "Login Successful") {
